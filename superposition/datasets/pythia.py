@@ -60,5 +60,10 @@ def save_arr(features: ArrayLike, samples: Tensor, save_dir: str, name: str) -> 
 
 
 if __name__ == "__main__":
-    for model_name in ["EleutherAI/pythia-14m"]:
+    for model_name in [
+        "EleutherAI/pythia-14m",
+        "EleutherAI/pythia-70m-deduped",
+        "EleutherAI/pythia-160m-deduped",
+        "EleutherAI/pythia-410m-deduped",
+    ]:
         load(model_name, "main")

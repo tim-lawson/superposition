@@ -17,3 +17,63 @@ python experiments/pythia.py --model_name EleutherAI/pythia-14m --num_latents 10
 python experiments/pythia.py --model_name EleutherAI/pythia-14m --num_latents 1024 --ffn
 python experiments/pythia.py --model_name EleutherAI/pythia-14m --num_latents 1024 --gaussian
 python experiments/pythia.py --model_name EleutherAI/pythia-14m --num_latents 1024 --ffn --gaussian
+
+python experiments/pythia.py --model_name EleutherAI/pythia-70m-deduped --num_latents 512
+python experiments/pythia.py --model_name EleutherAI/pythia-70m-deduped --num_latents 512 --ffn
+python experiments/pythia.py --model_name EleutherAI/pythia-70m-deduped --num_latents 512 --gaussian
+python experiments/pythia.py --model_name EleutherAI/pythia-70m-deduped --num_latents 512 --ffn --gaussian
+
+python experiments/pythia.py --model_name EleutherAI/pythia-70m-deduped --num_latents 1024
+python experiments/pythia.py --model_name EleutherAI/pythia-70m-deduped --num_latents 1024 --ffn
+python experiments/pythia.py --model_name EleutherAI/pythia-70m-deduped --num_latents 1024 --gaussian
+python experiments/pythia.py --model_name EleutherAI/pythia-70m-deduped --num_latents 1024 --ffn --gaussian
+
+python experiments/pythia.py --model_name EleutherAI/pythia-70m-deduped --num_latents 2048
+python experiments/pythia.py --model_name EleutherAI/pythia-70m-deduped --num_latents 2048 --ffn
+python experiments/pythia.py --model_name EleutherAI/pythia-70m-deduped --num_latents 2048 --gaussian
+python experiments/pythia.py --model_name EleutherAI/pythia-70m-deduped --num_latents 2048 --ffn --gaussian
+
+python experiments/pythia.py --model_name EleutherAI/pythia-70m-deduped --num_latents 4096
+python experiments/pythia.py --model_name EleutherAI/pythia-70m-deduped --num_latents 4096 --ffn
+python experiments/pythia.py --model_name EleutherAI/pythia-70m-deduped --num_latents 4096 --gaussian
+python experiments/pythia.py --model_name EleutherAI/pythia-70m-deduped --num_latents 4096 --ffn --gaussian
+
+python experiments/pythia.py --model_name EleutherAI/pythia-160m-deduped --num_latents 768
+python experiments/pythia.py --model_name EleutherAI/pythia-160m-deduped --num_latents 768 --ffn
+python experiments/pythia.py --model_name EleutherAI/pythia-160m-deduped --num_latents 768 --gaussian
+python experiments/pythia.py --model_name EleutherAI/pythia-160m-deduped --num_latents 768 --ffn --gaussian
+
+python experiments/pythia.py --model_name EleutherAI/pythia-160m-deduped --num_latents 1536
+python experiments/pythia.py --model_name EleutherAI/pythia-160m-deduped --num_latents 1536 --ffn
+python experiments/pythia.py --model_name EleutherAI/pythia-160m-deduped --num_latents 1536 --gaussian
+python experiments/pythia.py --model_name EleutherAI/pythia-160m-deduped --num_latents 1536 --ffn --gaussian
+
+python experiments/pythia.py --model_name EleutherAI/pythia-160m-deduped --num_latents 3072
+python experiments/pythia.py --model_name EleutherAI/pythia-160m-deduped --num_latents 3072 --ffn
+python experiments/pythia.py --model_name EleutherAI/pythia-160m-deduped --num_latents 3072 --gaussian
+python experiments/pythia.py --model_name EleutherAI/pythia-160m-deduped --num_latents 3072 --ffn --gaussian
+
+python experiments/pythia.py --model_name EleutherAI/pythia-160m-deduped --num_latents 6144
+python experiments/pythia.py --model_name EleutherAI/pythia-160m-deduped --num_latents 6144 --ffn
+python experiments/pythia.py --model_name EleutherAI/pythia-160m-deduped --num_latents 6144 --gaussian
+python experiments/pythia.py --model_name EleutherAI/pythia-160m-deduped --num_latents 6144 --ffn --gaussian
+
+python experiments/pythia.py --model_name EleutherAI/pythia-410m-deduped --num_latents 1024
+python experiments/pythia.py --model_name EleutherAI/pythia-410m-deduped --num_latents 1024 --ffn
+python experiments/pythia.py --model_name EleutherAI/pythia-410m-deduped --num_latents 1024 --gaussian
+python experiments/pythia.py --model_name EleutherAI/pythia-410m-deduped --num_latents 1024 --ffn --gaussian
+
+python experiments/pythia.py --model_name EleutherAI/pythia-410m-deduped --num_latents 2048
+python experiments/pythia.py --model_name EleutherAI/pythia-410m-deduped --num_latents 2048 --ffn
+python experiments/pythia.py --model_name EleutherAI/pythia-410m-deduped --num_latents 2048 --gaussian
+python experiments/pythia.py --model_name EleutherAI/pythia-410m-deduped --num_latents 2048 --ffn --gaussian
+
+python experiments/pythia.py --model_name EleutherAI/pythia-410m-deduped --num_latents 4096
+python experiments/pythia.py --model_name EleutherAI/pythia-410m-deduped --num_latents 4096 --ffn
+python experiments/pythia.py --model_name EleutherAI/pythia-410m-deduped --num_latents 4096 --gaussian
+python experiments/pythia.py --model_name EleutherAI/pythia-410m-deduped --num_latents 4096 --ffn --gaussian
+
+python experiments/pythia.py --model_name EleutherAI/pythia-410m-deduped --num_latents 8192
+python experiments/pythia.py --model_name EleutherAI/pythia-410m-deduped --num_latents 8192 --ffn
+python experiments/pythia.py --model_name EleutherAI/pythia-410m-deduped --num_latents 8192 --gaussian
+python experiments/pythia.py --model_name EleutherAI/pythia-410m-deduped --num_latents 8192 --ffn --gaussian
