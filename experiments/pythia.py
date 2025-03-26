@@ -32,7 +32,6 @@ class Args(Serializable):
     gaussian: bool = False
 
     # sweep
-    num_seeds: int = 10
     num_l1_coefs: int = 21
 
     # dataset
