@@ -25,3 +25,8 @@ To reproduce Figures 7 and 17–20, run `./glove.sh`.
 This script generates trained autoencoders in the `models` subdirectory and CSV data in the `results/glove` subdirectory.
 Each call to `python experiments/glove.py` takes about X minutes on an RTX 3090 GPU and there are 64 calls.
 For each number of latents and dataset, it trains autoencoders with 21 different L1 coefficients.
+
+To reproduce Figures X, run `./pythia.sh`.
+This script generates trained autoencoders in the `models` subdirectory and CSV data in the `results/pythia` subdirectory.
+Each call to `python experiments/pythia.py` takes about 20 minutes on an RTX 3090 GPU and there are 64 calls.
+For each number of latents and dataset, it trains autoencoders with 21 different L1 coefficients.
