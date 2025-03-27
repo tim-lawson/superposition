@@ -30,6 +30,7 @@ class Args(Serializable):
     test: bool = True
     ffn: bool = False
     gaussian: bool = False
+    residual: bool = False
 
     # sweep
     num_l1_coefs: int = 21
@@ -47,6 +48,8 @@ class Args(Serializable):
             filename += "gaussian_"
         if self.ffn:
             filename += "ffn_"
+        if self.residual:
+            filename += "residual_"
         filename += "l1_coef_"
         filename += str(self.num_latents)
         return filename
@@ -100,7 +103,10 @@ def main(args: Args) -> None:
             )
 
             with torch.no_grad():
-                dataset.samples = ffn.forward(dataset.samples)
+                if args.residual:
+                    dataset.samples = ffn.forward(dataset.samples) + dataset.samples
+                else:
+                    dataset.samples = ffn.forward(dataset.samples)
 
         train_dataset, test_dataset = torch.utils.data.random_split(
             dataset, [1 - args.test_split, args.test_split]
