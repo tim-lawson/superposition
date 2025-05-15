@@ -13,6 +13,7 @@ dependencies = [
     "simple-parsing>=0.1.6",
     "torch>=2.5.1",
     "tqdm>=4.67.1",
+    "transformers>=4.50.1",
 ]
 
 [tool.ruff]
