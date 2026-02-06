@@ -1,6 +1,6 @@
-# A toy model of superposition
+# A toy model of superposition in random networks
 
-This repository accompanies Section 4 of the preprint "Sparse Autoencoders Can Interpret Randomly Initialized Transformers" (<https://arxiv.org/abs/2501.17727>).
+This repository accompanies Section 4 of the ICLR 2026 paper "Automated Interpretability Metrics Do Not Distinguish Trained and Random Transformers" (<https://openreview.net/forum?id=USyGD0eUod>, <https://arxiv.org/abs/2501.17727>).
 For the code that accompanies the rest of the paper, see <https://github.com/ThomasHeap/random_sae>.
 
 We speculated in Section 1 of the paper that the activations of randomized transformers could appear 'interpretable' because the input data exhibits superposition preserved by (even randomized) neural networks, or because neural networks amplify or introduce superposition into the input data.
